@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ленивая загрузка изображений</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Демонстрация Lazy Loading</h1>
+    
+    <button id="manual-load-btn">Загрузить все изображения вручную</button>
+
+    <div class="gallery">
+        <img data-src="https://picsum.photos/id/1015/800/600" alt="Пейзаж 1" class="lazy-image">
+        <img data-src="https://picsum.photos/id/1020/800/600" alt="Пейзаж 2" class="lazy-image">
+        <img data-src="https://picsum.photos/id/1025/800/600" alt="Пейзаж 3" class="lazy-image">
+        <img data-src="https://picsum.photos/id/1035/800/600" alt="Пейзаж 4" class="lazy-image">
+        <img data-src="https://picsum.photos/id/1040/800/600" alt="Пейзаж 5" class="lazy-image">
+    </div>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>
